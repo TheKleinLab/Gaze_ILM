@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+aggdraw = "==1.3.16"
+klibs = {file = "https://github.com/a-hurst/klibs/releases/download/0.7.7b1/klibs-0.7.7b1.tar.gz"}
+
+[requires]
+python_version = "3.11"
+
+[scripts]
